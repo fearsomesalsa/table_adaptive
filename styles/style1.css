@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+    font-size: 16px;
+
+}
+
+.table {
+    border: none;
+    border-collapse: separate; /* конфликтует с закруглениям для таблицы */
+    table-layout: fixed;
+    width: 750px;
+    border-spacing: 0;
+    padding: 20px;
+}
+
+.table tr > * {
+    padding: 8px;
+    border: none;
+}
+
+.table thead tr > * {
+    font-weight: bold;
+    background: #ececec;
+}
+
+.table thead tr:first-child th {
+    border-top: 1px solid #d7d7d7;
+}
+
+.table tr > *:first-child {
+    border-left: 1px solid #d7d7d7;
+}
+
+.table tr > *:last-child {
+    border-right: 1px solid #d7d7d7;
+}
+
+.table tbody tr:last-child {
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.table thead tr:first-child th:first-child {
+    border-top-left-radius: 15px;
+}
+
+.table thead tr:first-child th:last-child {
+    border-top-right-radius: 15px;
+}
+
+.table tbody tr:nth-child(2n) {
+    background: #ececec;
+}
+
+.table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+.table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 20px;
+}
+.table-container {
+    /*margin: 15px;*/
+}
