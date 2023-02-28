@@ -11,8 +11,8 @@ body {
 .table {
     border: none;
     border-collapse: separate; /* конфликтует с закруглениям для таблицы */
-    table-layout: fixed;
-    width: 750px;
+    table-layout: auto;
+/*     width: 750px; */
     border-spacing: 0;
     padding: 20px;
 }
@@ -62,7 +62,4 @@ body {
 
 .table tbody tr:last-child td:last-child {
     border-bottom-right-radius: 20px;
-}
-.table-container {
-    /*margin: 15px;*/
 }
