@@ -1,5 +1,5 @@
 @media screen and (max-width: 425px) {
-    .table {
+    .table-container {
         overflow-y: auto;
     }
 }
